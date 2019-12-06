@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-nav a{
+nav a{ 
 	text-decoration:none;
 	color:grey;
 	display: inline-block;
@@ -80,23 +80,32 @@ nav a{
 	margin-right: 1%;
 }
 h1{
-	font-size:40px;
-}
-head{
-	border:20px solid black;
-}
-header{
-	border:3px solid blue;
-	padding: 5%;
+	font-size:60px;
+	text-align:center;
 }
 .circle{
-	display: inline-block;
-	border:3px solid purple;
-	float: right;
+	margin-left:40%;
+}
+header{
+	display:block;
+	border:3px solid blue;
+	width:80%;
+	column-count:2;
+}
+.title-button{
+	display:block;
+}
+.title{
+	border:3px solid red;
+	/* width: 20%; */
+	margin-top: 15%;
 }
 .button{
 	display: inline-block;
 	border:1px solid black;
+	padding: 10px 50px;
+	margin-top: 8%;
+	margin-left:35%;
 }
 .top{
 	display: inline-block;
