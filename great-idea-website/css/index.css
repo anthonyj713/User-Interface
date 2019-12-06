@@ -88,42 +88,42 @@ h1{
 }
 header{
 	display:block;
-	border:3px solid blue;
 	width:80%;
 	column-count:2;
 }
 .title-button{
 	display:block;
+	margin-left: 5%;
 }
 .title{
-	border:3px solid red;
-	/* width: 20%; */
 	margin-top: 15%;
 }
 .button{
 	display: inline-block;
-	border:1px solid black;
 	padding: 10px 50px;
 	margin-top: 8%;
 	margin-left:35%;
 }
 .top{
-	display: inline-block;
-	border: 3px solid grey;
+	display: block;
 	margin: 5%;
+	column-count: 2;
+}
+.middle-img{
+	width:80%;
+	margin-left:8%;
 }
 .bottom{
-	display: inline-block;
-	border: 3px dashed maroon;
+	display: block;
 	margin: 5%;
+	column-count: 3;
 }
 .contact{
-	display: inline-block;
-	border:3px dashed black;
+	display: block;
 	margin: 5%;
 }
 footer{
 	display: inline-block;
-	border:3px solid yellow;
+	margin-left:45%;
 }
 
